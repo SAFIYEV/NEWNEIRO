@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('newneiro.html')  # Имя файла HTML
+    return render_template('index.html')  # Имя файла HTML
 
 @app.route('/api/get_response', methods=['POST'])
 def get_response():
